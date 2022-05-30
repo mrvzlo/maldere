@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <link rel="icon" href="favicon.ico" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="main.css" />
+      <title>Chamilate Forest Story</title>
+   </head>
+   <body>
+      <div class="preview main">
+         <div class="container">
+            <div class="row g-3 mx-3">
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 0">
+                  <div class="border border-2">
+                     <div>В лесной глуши стоит один</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 1">
+                  <div class="border border-2">
+                     <div>Красы невероятной дом</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 2">
+                  <div class="border border-2">
+                     <div>Где тени ходят меж картин</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 3">
+                  <div class="border border-2">
+                     <div>А среди ночи слышен стон</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 4">
+                  <div class="border border-2">
+                     <div>И если сможешь ты войти</div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12" style="--i: 5">
+                  <div class="border border-2">
+                     <div>Все двери тут же спрячет он</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="preview door door-left"></div>
+      <div class="preview door door-right"></div>
+      <div class="preview key-hole" onclick="main.open()"></div>
+      <script src="./main.js"></script>
+      <script>
+         const main = new Main();
+      </script>
+   </body>
+</html>
