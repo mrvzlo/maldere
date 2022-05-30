@@ -3,13 +3,18 @@
    src: url(./font.ttf);
 }
 
+html,
 body {
-   height: 100vh;
    overflow: hidden;
+   height: 100vh;
+}
+
+body {
    background: url('./back.png');
    color: #ccc;
    font-family: Caveat;
    text-align: center;
+   position: relative;
 }
 
 .main {
@@ -86,11 +91,11 @@ body {
 }
 
 .row > * > .border {
-   min-height: calc(33vh - 45px);
+   min-height: calc(33vh - 54px);
    border-style: dashed !important;
    border-color: #fff6 !important;
    display: flex;
-   padding: 15px;
+   padding: 0 15px;
 }
 
 .row > * > .border > * {
@@ -99,13 +104,13 @@ body {
 
 @media (max-width: 768px) {
    .row > * > .border {
-      min-height: calc(16vh - 23px);
+      min-height: calc(16vh - 27px);
       font-size: 1.2rem;
    }
 }
 
 .container {
-   margin: 45px 10vw;
+   margin: 40px 10vw;
    max-width: 80vw;
 }
 
